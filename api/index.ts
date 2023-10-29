@@ -1,7 +1,7 @@
 import { MongoClient } from "mongodb";
 import express from "express";
 import bodyParser from "body-parser";
-import custumersRoute from "./routes/custumers";
+import apiRoute from "./routes/api.ts";
 
 async function start() {
   try {
@@ -20,7 +20,7 @@ async function start() {
     );
 
     // routes
-    app.use("/api", custumersRoute);
+    app.use("/api", apiRoute);
 
     // start server
     app.listen(3000, () => {
