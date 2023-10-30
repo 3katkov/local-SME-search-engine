@@ -1,6 +1,14 @@
-Step by step method
+Project description. 
 
-1. npm create vite@latest - choose frmework for the frot
-2. go into client and do npi
-3. create api folder at root
-4. Installed express and typescript (https://blog.logrocket.com/how-to-set-up-node-typescript-express/)
+Tech Stack:
+  Client: 
+    - Vite/React 
+    - Typescript 
+  Api: 
+    - Express
+    - Typescript 
+  Data: 
+    - NoSQL: MongoDb
+    - Data source: Gov UK - Companies House (http://download.companieshouse.gov.uk/en_output.html (2.5Gb))
+
+
